@@ -1,0 +1,20 @@
+[
+  {
+    "experiment": "Exp 1: Standard VGG16",
+    "description": "Baseline VGG16 with only block5 top features and dense head",
+    "accuracy": 0.5492,
+    "f1_macro": 0.5541
+  },
+  {
+    "experiment": "Exp 2: MS-VGG16 (No Gating)",
+    "description": "Multi-scale feature fusion using static uniform averaging",
+    "accuracy": 0.4222,
+    "f1_macro": 0.4048
+  },
+  {
+    "experiment": "Exp 3: MS-GF-VGG16 (Proposed)",
+    "description": "Multi-scale fusion with custom Scale-Gated Feature Fusion Unit (SGFU)",
+    "accuracy": 0.7397,
+    "f1_macro": 0.7713
+  }
+]
